@@ -1,0 +1,48 @@
+# sqlserver database config
+Database:
+    host: 127.0.0.1
+    port: 1433
+    user: sa
+    password: 123456
+    database: qd_db
+
+# 1 数据概况
+# 2 人口密度
+  # 2.1 人口动态分布
+  # 2.2 平均人口动态分布
+  # 2.3 分时段人口动态分布
+  # 2.4 分时段平均人口动态分布
+  # 2.5 人口+岗位密度分布
+# 3 出行分布
+  # 3.1 日出行OD(总量)
+  # 3.2 日出行OD(分方向)
+  # 3.3 时段出行OD
+# 4 ͨ通勤出行
+  # 4.1 工作居住地分布(工作总量)
+  # 4.2 工作居住地分布(工作密度)
+  # 4.3 工作居住地分布(居住总量)
+  # 4.4 工作居住地分布(居住密度)
+  # 4.5 职住比
+  # 4.6 非工作人口分布(总量)
+  # 4.7 非工作人口分布(密度)
+# 5 外来人口
+  # 5.1 外来人口分布(总量)
+  # 5.2 外来人口分布(密度)
+  # 5.3 外来人口来源地(city)
+  # 5.4 外来人口来源地(china)
+# 6 轨道交通
+  # 6.1 1公里范围人口数量
+  # 6.2 1公里范围岗位数量
+  # 6.3 1公里范围吸引范围
+# 7 区域面积
+# 0 默认执行全部
+RunData: 0
+
+# js data stored folder
+TXTDataFolder: E:\data\qd_js
+
+
+# is or nor update load txt file
+IsUpdateTxt: True
+# load data folder, this folder is must not exist
+TXTDataFolder: E:\data\qd_txt
